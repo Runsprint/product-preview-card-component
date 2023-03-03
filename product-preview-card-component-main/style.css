@@ -3,18 +3,23 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F2EAE2;
 }
-.pic{
+main{
+    background-color: white;
     width: 343px;
-    height: 611px;
+    display: grid;
     margin: auto;
     margin-top: 28px;
-    background-color: white;
-    border-radius: 10px;
+    margin-bottom: 28px;
 }
-.mobile-image{
+
+.second{
+    display: none;
+}
+.first{
     width: 100%;
 }
 .contant{
+    background-color:white;
     padding: 24px;
 }
 h1{
@@ -50,9 +55,17 @@ h4{
     line-height: 32px;
     padding-top: 24px;
 }
+.line{
+    background-color: #6C7289;
+    width: 46px;
+    height: 1px;
+    position: relative;
+    top: 43px;
+    left: -65px;
+}
 .numbers{
     display: flex;
-    gap: 10px;
+    gap:19px
 }
 .numbers p{
     color: #6C7289;
@@ -82,5 +95,36 @@ h5{
     font-size: 14px;
     line-height: 17.07px; 
     color: beige;
-    width: 85px;
+}
+@media(min-width:1440px){
+    .second{
+        display: flex;
+    }
+    .first{
+        display: none;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        width: 600px;
+        height: 450px;
+        margin-top: 24%;
+    }
+    .contant{
+        width: 300px;
+        padding: 32px;
+    }
+    h2{
+        width: 236px;
+        margin-top:20px;
+    }
+    p{
+        width: 237px;
+    }
+    .line{
+        left: -109px;
+    }
+    button{
+        margin-top:30px;
+    }
 }
