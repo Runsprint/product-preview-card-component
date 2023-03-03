@@ -8,12 +8,14 @@ body{
     height: 611px;
     margin: auto;
     margin-top: 28px;
+    background-color: white;
+    border-radius: 10px;
 }
 .mobile-image{
     width: 100%;
 }
 .contant{
-    background-color: white;
+    padding: 24px;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -30,7 +32,7 @@ h2{
     font-size:32px;
     line-height: 32px; 
     color: #1C232B;
-
+    padding-top: 12px;
 }
 p{
     font-family: 'Montserrat', sans-serif; 
@@ -38,7 +40,47 @@ p{
     font-size: 14px;
     line-height: 23px;
     color: #6C7289;
+    padding-top: 16px;
 }
 h4{
+    font-family: 'Fraunces', serif; 
     color: #3D8168;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    padding-top: 24px;
+}
+.numbers{
+    display: flex;
+    gap: 10px;
+}
+.numbers p{
+    color: #6C7289;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    padding-top: 30px;
+
+}
+button{
+   background-color: #3D8168;
+    width: 285px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    
+}
+h5{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px; 
+    color: beige;
+    width: 85px;
 }
