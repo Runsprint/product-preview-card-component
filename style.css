@@ -100,6 +100,11 @@ h5{
     line-height: 17.07px; 
     color: beige;
 }
+.button-img:hover{
+    color: blue;
+    cursor: pointer;
+    transition-duration: 10s;
+}
 @media(min-width:1440px){
     .second{
         display: flex;
@@ -132,10 +137,5 @@ h5{
     }
     button{
         margin-top:30px;
-    }
-    .button-img:hover{
-        color: blue;
-        cursor: pointer;
-        transition-duration: 10s;
     }
 }
