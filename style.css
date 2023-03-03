@@ -133,4 +133,9 @@ h5{
     button{
         margin-top:30px;
     }
+    .button-img:hover{
+        color: blue;
+        cursor: pointer;
+        transition-duration: 10s;
+    }
 }
